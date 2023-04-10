@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:id="@+id/relativeLayout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/delius_swash_caps"
+            android:gravity="center|fill_vertical"
+            android:text="Click on the buttons for the magic to happen!"
+            android:textColor="#673AB7"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.611"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.095" />
+
+        <Button
+            android:id="@+id/radioButtonRed"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/montserrat_subrayada"
+            android:text="RED"
+            android:textSize="15sp"
+            app:backgroundTint="#F44437"
+            app:iconTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/radioButtonGreen"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/montserrat_subrayada"
+            android:text="Green"
+            android:textSize="15sp"
+            app:backgroundTint="#47BD4C"
+            app:iconTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/radioButtonBlue"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/montserrat_subrayada"
+            android:text="Blue"
+            android:textSize="15sp"
+            app:backgroundTint="#2196F3"
+            app:iconTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/radioButtonOrange"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/montserrat_subrayada"
+            android:text="YELLOW"
+            android:textSize="15sp"
+            app:backgroundTint="#FFCB2F"
+            app:iconTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/radioButtonGray"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+           android:fontFamily="@font/montserrat_subrayada"
+            android:text="GRAY"
+            android:textSize="15sp"
+            app:backgroundTint="#616060"
+            app:iconTint="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="144dp"
+        android:layout_height="185dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginRight="252dp"
+        android:layout_marginBottom="530dp"
+        app:srcCompat="@drawable/yellow_rainbow_retro_vintage_hippie_quote_instagram_post" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="375dp"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="511dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="-1dp"
+
+        app:srcCompat="@drawable/blue_purple_playful_rainbow_quote_instagram_post" />
+
+</RelativeLayout>
